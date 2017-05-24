@@ -13,6 +13,6 @@ api1 = tweepy.API(auth1)
 
 trends = api1.trends_place(1)
 trendsAscii = unidecode(str(trends))
-dados = open("arquivo.txt","w")
+dados = open("data.txt","w")
 dados.write(json.dumps(trendsAscii, sort_keys=True, indent=4))
 dados.close()
