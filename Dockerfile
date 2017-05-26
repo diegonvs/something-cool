@@ -1,4 +1,4 @@
- RUN docker image pull alpine
+ #RUN docker image pull alpine
 
  FROM alpine:edge
 
